@@ -1,0 +1,16 @@
+.card-body a {
+  text-decoration: none !important;
+}
+
+.btn-outline-primary {
+  padding: 0 !important;
+}
+
+.btn-outline-primary > a {
+  padding: 0.75rem;
+}
+
+.btn-outline-primary:hover > a {
+  transition: 0.2s ease;
+  color: #fff;
+}

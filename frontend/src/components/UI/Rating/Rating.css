@@ -1,0 +1,7 @@
+.rating span {
+  color: #ffc000;
+}
+
+.rating span.review {
+  margin-top: 2px;
+}

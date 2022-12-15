@@ -1,0 +1,18 @@
+.search-screen li {
+  list-style-type: none;
+}
+
+.search-screen li a {
+  text-decoration: none;
+  color: #010180;
+}
+
+.search-screen .search-screen__results span {
+  color: var(--main-orange);
+}
+
+.search-screen .sort-select {
+  border: 1px solid var(--main-orange);
+  outline: none !important;
+  border-radius: 5px;
+}

@@ -1,0 +1,128 @@
+.navbar__nav {
+  background-color: var(--main-blue);
+}
+
+.navbar__nav ul,
+.navbar__nav ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__nav ul {
+  padding: 0 0.4rem;
+  min-height: 60px;
+}
+
+@media (min-width: 767px) {
+  .navbar__nav ul.home-page {
+    margin-bottom: 0 !important;
+  }
+}
+
+.navbar__nav ul li {
+  list-style-type: none;
+}
+
+.navbar__nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.6rem;
+}
+
+.navbar__nav ul li a:hover,
+.navbar__nav .navbar-button__dropdown:hover {
+  outline: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.navbar__nav .navbar-menu__link {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.navbar__nav ul li a img {
+  width: 6.3rem;
+}
+
+.navbar__nav ul li:nth-child(2) {
+  display: flex;
+  height: 2.2rem;
+  margin: 6px;
+  flex: 0 1 40rem;
+}
+
+.navbar__nav ul li input {
+  height: 100%;
+  width: 100%;
+  padding-left: 1rem;
+  border: none;
+  outline: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  font-size: 17px;
+}
+
+.navbar__nav ul li:nth-child(2) svg {
+  background-color: var(--main-yellow);
+  width: 45px;
+  height: 100%;
+  padding: 4px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.navbar__nav ul li:nth-child(2) svg:hover {
+  background-color: #ffa938;
+  cursor: pointer;
+}
+
+.navbar__nav .navbar-button__dropdown {
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0.0007rem 0.4rem;
+  margin-right: 3px;
+}
+
+.navbar__nav .navbar-button__dropdown h5 {
+  margin-bottom: 0 !important;
+}
+
+.navbar__nav ul li .navbar-signup__link {
+  padding: 0.8rem 0.5rem;
+  margin-right: 3px;
+}
+
+.navbar__nav ul li .navbar-cart__link {
+  min-width: 100.84px;
+  position: relative;
+  font-weight: bold;
+}
+
+.navbar__nav ul li .navbar-cart__link span {
+  position: absolute;
+  left: 23.5px;
+  top: 5px;
+  color: var(--main-orange);
+  min-width: 30px;
+}
+
+@media (max-width: 767px) {
+  .navbar__nav ul {
+    flex-wrap: wrap;
+    min-height: 102px;
+  }
+
+  .navbar__nav ul li {
+    margin-top: 5px;
+  }
+
+  .navbar__nav ul li:nth-child(2) {
+    order: 1;
+    flex-grow: 1;
+  }
+}

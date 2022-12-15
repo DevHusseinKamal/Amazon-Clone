@@ -1,0 +1,39 @@
+.sidebar__header,
+.sidebar__categories h4,
+.sidebar__categories ul li a {
+  padding: 0.8rem 2rem;
+}
+
+.sidebar__header {
+  background-color: var(--second-blue);
+  color: #fff;
+}
+
+.sidebar__header svg {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.sidebar__header h3 {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.sidebar__categories,
+.sidebar__categories ul li a {
+  color: var(--second-blue);
+}
+
+.sidebar__categories ul {
+  margin-top: 5px;
+  padding-left: 0 !important;
+}
+
+.sidebar__categories ul li {
+  list-style-type: none;
+}
+
+.sidebar__categories ul li:hover {
+  background-color: #e2dede;
+  cursor: pointer;
+}

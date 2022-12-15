@@ -1,0 +1,20 @@
+.products-h2 {
+  padding: 1rem;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products-top {
+  position: relative;
+  top: -130px;
+}
+
+@media (max-width: 767px) {
+  .products-top {
+    top: 0;
+  }
+}

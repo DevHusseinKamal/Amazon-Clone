@@ -1,0 +1,33 @@
+.cart a {
+  text-decoration: none;
+}
+
+.cart h5 {
+  margin-bottom: 0 !important;
+}
+
+.cart .img-thumbnail {
+  height: 80px;
+}
+
+.cart .proceed-btn {
+  padding: 0 !important;
+}
+
+.cart .proceed-btn a {
+  color: #fff;
+}
+
+.cart .cart-item {
+  position: relative;
+}
+
+.cart .cart-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #ffffff4d;
+}

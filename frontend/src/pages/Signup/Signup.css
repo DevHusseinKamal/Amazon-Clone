@@ -1,0 +1,12 @@
+.signup-contanier input {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  outline: none;
+}
+
+.reset-password {
+  border: none;
+  outline: none;
+  text-decoration: underline;
+  color: var(--second-blue);
+}
